@@ -1,5 +1,6 @@
 .Quotes {
   display: flex;
+  height: 100vw;
   justify-content: space-around;
   flex-wrap: wrap;
   background-color: #889fa3;
@@ -14,6 +15,7 @@
 
   section {
     margin: auto;
+    width: 100%;
   }
 
   img {

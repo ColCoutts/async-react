@@ -4,11 +4,11 @@ import Quote from './Quote';
 import styles from './Quotes.css';
 
 function Quotes({ quotes }) {
-  const quoteList = quotes.map((quote, i) => {
+  const quoteList = quotes.map((quote, i) => (
     <li key={i}>
       <Quote quote={quote} />
-    </li>;
-  });
+    </li>
+  ));
 
   return (
     <ul className={styles.Quotes}>
