@@ -1,6 +1,7 @@
 .Quotes {
+  box-sizing: border-box;
   display: flex;
-  height: 100vw;
+  height: 100%;
   justify-content: space-around;
   flex-wrap: wrap;
   background-color: #889fa3;
@@ -9,7 +10,7 @@
     width: 20vw;
     margin: 2rem;
     padding: 2rem;
-
+    list-style: none;
     background-color: #dff0f3;
   }
 
@@ -19,7 +20,9 @@
   }
 
   img {
-    width: 10rem;
+    object-fit: scale-down;
+    width: 15rem;
+    height: 15rem;
     margin: auto;
   }
 }
