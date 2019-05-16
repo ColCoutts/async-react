@@ -1,0 +1,23 @@
+.Quotes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #889fa3
+
+  li {
+    width: 20vw;
+    margin: 2rem;
+    padding: 2rem;
+
+    background-color: #dff0f3;
+  }
+
+  section {
+    margin: auto;
+  }
+
+  img {
+    width: 10rem;
+    margin: auto;
+  }
+}
