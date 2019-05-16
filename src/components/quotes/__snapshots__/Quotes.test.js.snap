@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quotes compenent renders a quote 1`] = `
+<ul
+  className="Quotes"
+>
+  <li
+    key="0"
+  >
+    <Quote
+      quote={
+        Object {
+          "character": "Fry",
+          "image": "./image",
+          "quote": "wuat",
+        }
+      }
+    />
+  </li>
+  <li
+    key="1"
+  >
+    <Quote
+      quote={
+        Object {
+          "character": "Fry",
+          "image": "./image",
+          "quote": "wuat",
+        }
+      }
+    />
+  </li>
+  <li
+    key="2"
+  >
+    <Quote
+      quote={
+        Object {
+          "character": "Fry",
+          "image": "./image",
+          "quote": "wuat",
+        }
+      }
+    />
+  </li>
+</ul>
+`;
