@@ -11,7 +11,7 @@ function Quotes({ quotes }) {
   });
 
   return (
-    <ul style={styles.Quotes}>
+    <ul className={styles.Quotes}>
       {quoteList}
     </ul>
   );

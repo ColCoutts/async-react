@@ -1,7 +1,8 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import Quotes from '../../components/quotes/Quotes';
-import { getQuotes } from '../../services/futuramaApi';
+import Loading from '../../components/Loading'; 
+import { getQuotes } from '../../services/futuramaApi.js';
 
 export default class TopQuotes extends PureComponent {
   static propTypes = {
@@ -35,7 +36,7 @@ export default class TopQuotes extends PureComponent {
 
   render() {
     const { quotes, loading } = this.state;
-    // if(loading) return <Loading />;
+    if(loading) return <Loading />;
 
     return <Quotes quotes={quotes} />;
   }
