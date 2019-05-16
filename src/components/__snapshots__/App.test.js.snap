@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app component renders an App 1`] = `
+<Fragment>
+  <button
+    onClick={[Function]}
+  >
+    Top Quotes
+  </button>
+  <TopQuotes
+    count={10}
+  />
+</Fragment>
+`;
