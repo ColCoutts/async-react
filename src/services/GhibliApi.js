@@ -1,4 +1,4 @@
-export const getCharacters = (limit = 5) => {
+export const getCharacters = (limit = 10) => {
   return fetch(`https://ghibliapi.herokuapp.com/people/?limit=${limit}`)
     .then(res => ([res.ok, res.json()]))
     .then(([ok, json]) => {
