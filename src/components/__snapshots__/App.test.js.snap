@@ -7,6 +7,11 @@ exports[`app component renders an App 1`] = `
   >
     Top Quotes
   </button>
+  <button
+    onClick={[Function]}
+  >
+    Pick a character
+  </button>
   <TopQuotes
     count={10}
   />
