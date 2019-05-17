@@ -31,7 +31,7 @@ describe('Characters component', () => {
       }
     ];
 
-    const wrapper = shallow(<Characters characters={characters} />)
+    const wrapper = shallow(<Characters characters={characters} />);
     expect(wrapper).toMatchSnapshot();
   });
 });
