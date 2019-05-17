@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Characters component renders a snapshot 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <Character
+      character={
+        Object {
+          "age": "-less",
+          "films": Array [
+            "this film",
+          ],
+          "gender": "Alient",
+          "name": "Colin",
+        }
+      }
+    />
+  </li>
+  <li
+    key="1"
+  >
+    <Character
+      character={
+        Object {
+          "age": "-less",
+          "films": Array [
+            "this film",
+          ],
+          "gender": "Alient",
+          "name": "Chad",
+        }
+      }
+    />
+  </li>
+  <li
+    key="2"
+  >
+    <Character
+      character={
+        Object {
+          "age": "-less",
+          "films": Array [
+            "this film",
+          ],
+          "gender": "Alient",
+          "name": "Chris",
+        }
+      }
+    />
+  </li>
+</ul>
+`;
