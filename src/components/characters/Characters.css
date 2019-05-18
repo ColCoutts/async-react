@@ -17,7 +17,7 @@
 
   section {
     margin: auto;
-    animation: insert .5s linear;
+    animation: insert 1s linear;
   }
 
   img {
