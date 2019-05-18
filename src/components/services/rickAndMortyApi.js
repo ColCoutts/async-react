@@ -6,10 +6,13 @@ export const getCharacters = (page = 1) => {
 
       return json;
     })
-    .then(({ results }) => results.map(character => ({
-      name: character.name,
-      species: character.species,
-      status: character.status,
-      image: character.image
-    })));
+    .then(({ info, results }) => ({
+      totalPages: info.pages,
+      characters: results.map(character => ({
+        name: character.name,
+        species: character.species,
+        status: character.status,
+        image: character.image
+      }))
+    }));
 };

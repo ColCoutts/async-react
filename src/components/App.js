@@ -1,14 +1,6 @@
 import React from 'react';
-import Characters from './characters/Characters';
+import AllCharacters from '../containers/quotes/AllCharacters';
 
 export default function App() {
-  const characters = [
-    {
-      name: 'Charles',
-      status: 'okay',
-      species: 'Alien',
-      image: './image'
-    }
-  ];
-  return <Characters characters={characters} />;
+  return <AllCharacters />;
 }
