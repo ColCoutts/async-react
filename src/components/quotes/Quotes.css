@@ -1,0 +1,28 @@
+.Quotes {
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #889fa3;
+
+  li {
+    width: 20vw;
+    margin: 2rem;
+    padding: 2rem;
+    list-style: none;
+    background-color: #dff0f3;
+  }
+
+  section {
+    margin: auto;
+    width: 100%;
+  }
+
+  img {
+    object-fit: scale-down;
+    width: 15rem;
+    height: 15rem;
+    margin: auto;
+  }
+}
